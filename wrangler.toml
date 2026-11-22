@@ -1,0 +1,14 @@
+name = "duktur"
+main = "index.js"
+compatibility_date = "2025-11-01"
+
+[[durable_objects.bindings]]
+name = "FORUM"
+class_name = "Forum"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Forum"]
+
+[vars]
+SITE_NAME = "DUKTUR"
